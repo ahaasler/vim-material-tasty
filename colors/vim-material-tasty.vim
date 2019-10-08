@@ -149,6 +149,7 @@ call s:hi("Search",      s:gui.none,       s:gui.none,       "", "", "underline"
 call s:hi("InSearch",    s:gui.background, s:gui.foreground, "", "", "")
 call s:hi("Todo",        s:gui.red,        s:gui.foreground, "", "", "reverse")
 call s:hi("Special",     s:gui.orange,     "",               "", "", "")
+call s:hi("SpecialKey",  s:gui.comment,    "",               "", "", "")
 
 
 " Ruby colors
