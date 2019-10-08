@@ -1,10 +1,12 @@
 " -----------------------------------------------------------------------------
-" File: vim-material.vim
-" Description: equinusocio's Material Theme porting
+" File: vim-material-tasty.vim
+" Description: Tasty equinusocio's Material Theme porting
 " Porting From: https://github.com/equinusocio/vsc-material-theme
-" Author: hzchris <hzchirs@gmail.com>
-" Source: https://github.com/hzchirs/vim-material
-" Last Modified: 10 February 2019
+" Upstream author: hzchris <hzchirs@gmail.com>
+" Upstream source: https://github.com/hzchirs/vim-material
+" Author: Adrian Haasler García <dev@adrianhaasler.com>
+" Source: https://github.com/ahaasler/vim-material-tasty
+" Last Modified: 08 October 2019
 " -----------------------------------------------------------------------------
 
 if version > 580
@@ -14,7 +16,7 @@ if version > 580
   endif
 endif
 
-let g:colors_name = "vim-material"
+let g:colors_name = "vim-material-tasty"
 
 let s:gui = {}
 let s:cterm = {}
